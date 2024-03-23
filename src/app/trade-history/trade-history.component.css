@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+
+  }
+th,td{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#trade-history{
+    /* margin-left: 50px; */
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+
+}
