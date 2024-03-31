@@ -34,3 +34,6 @@
         <td>$4.00</td>
     </tr>
 </table>
+<select>
+    <option *ngFor="let item of items" [value]="item.properties.from_station_name">{{item.properties.from_station_name}}</option>
+</select>

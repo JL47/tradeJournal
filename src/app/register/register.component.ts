@@ -6,9 +6,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-// @NgModule({
-//   imports: [ReactiveFormsModule],
-// })
+
 export class RegisterComponent implements OnInit {
   firstName!: String;
   lastName!: String;
@@ -16,13 +14,7 @@ export class RegisterComponent implements OnInit {
   password!: String;
   country!: String;
 
-//   formTest!: FormGroup;
-//   areaCodes = {
-//     'USA': '+1',
-//     'India': '+91',
-//     'UK': '+44'
-//  };
-  // areaCodes:string[] = [];
+
   constructor() {}
  
   ngOnInit(): void {
